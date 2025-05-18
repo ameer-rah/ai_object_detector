@@ -13,11 +13,11 @@ This project uses **OpenCV** and a pretrained YOLOv8 model to detect objects thr
 
 ## Project Structure
 ai_object_detector/
-├── camera_test.py
-├── detection.py
-├── yolov8n.pt
-├── venv/
-└── .gitignore
+camera_test.py
+detection.py
+yolov8n.pt
+venv/
+.gitignore
 
 ## Installation
 ```bash
