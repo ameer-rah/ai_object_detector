@@ -21,12 +21,10 @@ This project uses **OpenCV** and a pretrained YOLOv8 model to detect objects thr
 
 ## Installation
 ```bash
-# Create and activate virtual environment (optional)
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 
-# Install dependencies
 pip install opencv-python
 pip install ultralytics
 ```
