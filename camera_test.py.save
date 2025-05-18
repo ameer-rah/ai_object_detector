@@ -1,0 +1,35 @@
+import cv2
+import time
+
+print("Script started")
+
+# Try to open the camera
+print("Attempting to open camera...")
+cap = cv2.VideoCapture(0)
+
+# Check if camera opened successfully
+if not cap.isOpened():
+    print("ERROR: Could not open camera!")
+else:
+    print("SUCCESS: Camera opened!")
+    
+    # Capture a frame
+    print("Trying to capture a frame...")
+    ret, frame = cap.read()
+    
+    if not ret:
+        print("ERROR: Couldn't capture a frame!")
+    else:
+        print("SUCCESS: Captured a frame!")
+        
+        # Save the captured frame
+        print("Saving image...")
+        cv2.imwrite('test_capture.jpg', frame)
+        print("Saved image as 'test_capture.jpg'")
+
+# Release the camera
+print("Releasing camera...")
+cap.release()
+print("Camera released")
+
+print("Script completed")
