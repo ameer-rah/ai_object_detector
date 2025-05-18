@@ -12,12 +12,12 @@ This project uses **OpenCV** and a pretrained YOLOv8 model to detect objects thr
 - `ultralytics` or any library you're using for YOLO
 
 ## Project Structure
-ai_object_detector/
-camera_test.py
-detection.py
-yolov8n.pt
-venv/
-.gitignore
+- ai_object_detector/
+- camera_test.py
+- detection.py
+- yolov8n.pt
+- venv/
+- .gitignore
 
 ## Installation
 ```bash
