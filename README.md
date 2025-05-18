@@ -1,5 +1,5 @@
 # AI Object Detector
-This project uses **OpenCV** and a pretrained YOLOv8 model to detect objects through your camera in real-time.
+This project uses **OpenCV** and a YOLOv8 model to detect objects through your camera in real-time scenerio
 
 ## Features
 - Real-time camera access
