@@ -1,10 +1,9 @@
-import cv2
-from ultralytics import YOLO
+import cv2 
+from ultralytics import YOLO 
 import time
 
-model = YOLO('yolov8n.pt')  # 'n' is for nano version (smallest and fastest)
-cap = cv2.VideoCapture(0)  # 0 for default camera
-
+model = YOLO('yolov8n.pt') 
+cap = cv2.VideoCapture(0)  
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
